@@ -5,6 +5,13 @@
   color: white;
 }
 
+:root {
+  --gray: #212121;
+  --green: #009660;
+  --white: #e9e9e9;
+  --black: #0c0c0c;
+}
+
 html,
 body {
   width: 100%;
@@ -94,4 +101,15 @@ nav {
   .nav3 {
     display: flex;
   }
+}
+
+main {
+  padding-top: 100px;
+}
+
+.section1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 70px;
 }
