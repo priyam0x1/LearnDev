@@ -1,0 +1,27 @@
+* {
+  background-color: black;
+  color: aliceblue;
+}
+
+nav,
+.right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right {
+  width: 40%;
+}
+
+.menu-bar {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .menu-bar {
+    display: block;
+  }
+  .right {
+    display: none;
+  }
+}
